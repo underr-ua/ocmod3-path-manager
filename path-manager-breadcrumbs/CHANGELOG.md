@@ -1,0 +1,47 @@
+# Change log
+
+## [2.4.0] - 2020.04.14:
+### Changed
+- Module renamed to "Path Manager - Breadcrumbs"
+### Added
+- Compatibility with the "Path Manager - Urls" module
+
+## [2.3.2] - 2020.03.15:
+### Fixed
+- Code improvements
+
+## [2.3.1] - 2020.03.11:
+### Changed
+- Settings
+### Fixed
+- Code improvements
+
+## [2.3.0] - 2020.03.07:
+### Added:
+- Ability to save native breadcrumb trails for menu and categories
+### Fixed
+- Code improvements
+
+## [2.2.0] - 2020.02.14:
+### Changed
+- Redesigned settings
+- Updated EULA
+### Fixed
+- Compatibility with newer version of [Add Custom Script](https://git.io/JvltB)
+
+## [2.1.0] - 2019.12.27:
+### Added
+- Added two new type of paths: direct and manufacturer
+### Fixed
+- Code improvements
+
+## [2.0.0] - 2019.12.19:
+### Changed
+- Transferred to the Opencart Event System
+
+## [1.0.1] - 2019.10.30:
+### Fixed
+- Minor code improvements
+
+## [1.0.0] - 2019.10.12:
+- First release
