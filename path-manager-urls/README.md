@@ -14,8 +14,8 @@ The "Path Manager - URLs" extension is for OpenCart 3.x CMS. It extend the "Path
 * High compatibility with third party templates and modules due to use Opencart Event System
 
 ## Live demo
-* [Admin](http://ocmod.freevar.com/oc3020/a/admin/index.php?route=extension/module/path_manager)
-* [Front](http://ocmod.freevar.com/oc3020/a)
+* [Admin](http://ocmod.freevar.com/oc3020/b/admin/index.php?route=extension/module/path_manager)
+* [Front](http://ocmod.freevar.com/oc3020/b)
 
 ## License
 [End-User License Agreement](https://git.io/JferS)
