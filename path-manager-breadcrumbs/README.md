@@ -4,7 +4,7 @@
 The Path Manager - Breadcrumbs extension is for OpenCart 3.x CMS. It allows to manage product breadcrumb trails and add JSON-LD structured data markup.
 
 ## Features
-* Change product breadcrumsbs to one of the following modes:
+* Change product breadcrumbs to one of the following modes:
     - Direct path, e.g. home > product
     - Shortest category path, e.g. home > cat1 > product
     - Longest category path, e.g. home > cat1 > subcat1 > subcat2 > product
