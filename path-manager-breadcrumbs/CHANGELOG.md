@@ -1,5 +1,9 @@
 # Change log
 
+## [2.4.1] - 2020.05.31:
+### Fixed
+- Fixed PHP warning in case of "The page you requested cannot be found!"
+
 ## [2.4.0] - 2020.04.14:
 ### Changed
 - Module renamed to "Path Manager - Breadcrumbs"
