@@ -1,7 +1,7 @@
 # Path Manager - URLs
 
 ## Description
-The "Path Manager - URLs" extension is for OpenCart 3.x CMS. It extend the "Path Manager - Breadcrumbs" module to allowing to manage product and category urls and canonocal links.
+The "Path Manager - URLs" extension is for OpenCart 3.x CMS. It extends the "Path Manager - Breadcrumbs" module and allow to manage product and category urls and canonocal links.
 
 ## Features
 * Change product urls and canonical links to one of the following modes:
@@ -25,5 +25,5 @@ The "Path Manager - URLs" extension is for OpenCart 3.x CMS. It extend the "Path
 * [OpenCart Marketplace](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=38192)
 
 ## Related modules and extensions
-* [Add Custom Scripts](https://git.io/JvltB)
+* [Document addTag](https://git.io/JvltB)
 * [Path Manager - Breadcrumbs](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=35022)
