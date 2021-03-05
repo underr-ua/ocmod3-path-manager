@@ -27,5 +27,5 @@ The Path Manager - Breadcrumbs extension is for OpenCart 3.x CMS. It allows to m
 * [OpenCart Marketplace](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=35022)
 
 ## Related modules and extensions
-* [Add Custom Scripts](https://git.io/JvltB)
+* [Document addTag](https://git.io/JqJxJ)
 * [Path Manager - URLs & Breadcrumbs](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=38192)
