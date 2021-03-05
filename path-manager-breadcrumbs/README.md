@@ -12,7 +12,7 @@ The Path Manager - Breadcrumbs extension is for OpenCart 3.x CMS. It allows to m
     - Manufacturer, e.g. home > brand > brandname > product
 * Force update breadcrumbs of products opened from Categories, Search and Manufacturer pages
 * Last breadcrumb item links removing and bold font
-* JSON-LD structured data markup about breadcrumbs (needs to install the ["Add Custom Scripts"](https://git.io/JvlqI) extension), which used by world's largest search engines to categorize the information from the page in search results.
+* JSON-LD structured data markup about breadcrumbs (needs to install the ["Document addTag"](https://git.io/JqJx0) extension), which used by world's largest search engines to categorize the information from the page in search results.
 * High compatibility with third party templates and modules due to use Opencart Event System
 
 ## Live demo

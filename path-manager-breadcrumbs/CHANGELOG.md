@@ -1,5 +1,15 @@
 # Change log
 
+## [2.5.1] - 2021.03.05:
+### Changed
+- Internal changes related to add-on "Add Custom Script" that was updated and renamed to "Document addTag".
+
+## [2.5.0] - 2021.02.26:
+### Fixed
+- Minor issues in unexpected cases
+### Internal
+- Renamed some events and functions
+
 ## [2.4.1] - 2020.05.31:
 ### Fixed
 - PHP warning issue in case of "The page you requested cannot be found!"
