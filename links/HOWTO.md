@@ -16,8 +16,9 @@
 ## How to uninstall
 * Start by making a backup (both DB and store files)!!!
 * Admin > Extensions > Extensions > Modules > [underr] Seo Tools - Breadcrumbs/Links > [Uninstall]
-* Admin > Extensions > Installer > Install History > document-addtag.ocmod.zip > [Uninstall]
-* Admin > Extensions > Installer > Install History > seo-tools-breadcrumbs.ocmod.zip > [Uninstall]
 * Admin > Extensions > Installer > Install History > seo-tools-links.ocmod.zip > [Uninstall]
+* Admin > Extensions > Installer > Install History > seo-tools-breadcrumbs.ocmod.zip > [Uninstall]
+* Admin > Extensions > Installer > Install History > document-addtag.ocmod.zip > [Uninstall]
+* Admin > Extensions > Installer > Install History > ocmod-dir-fix.ocmod.zip > [Uninstall]
 * Admin > Extensions > Modifications > [Refresh]
 * Admin > Dashboard > [Developer Settings] > [Refresh]
