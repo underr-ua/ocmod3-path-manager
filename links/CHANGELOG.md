@@ -1,5 +1,9 @@
 # Change log
 
+## [3.1.0] - 2021.05.18:
+### Fixed
+- Category redirection
+
 ## [3.0.0] - 2021.04.04:
 ### Changed
 - Renamed to SEO Tools - Links

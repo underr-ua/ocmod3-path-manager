@@ -4,14 +4,16 @@
 The "Seo Tools - Links" extension is for OpenCart 3.x CMS. It allows to manage product and category links, canonical URLs, pagination and more. [Seo Tools - Breadcrumbs](https://github.com/ocmod-space/ocmod-seo-tools/tree/main/breadcrumbs) and [OCMOD Dir Fix](https://github.com/ocmod-space/ocmod-dir-fix) extensions are required.
 
 ## Features
-* Generates ALL product links and canonical urls based on the one of the following type:
-  - Direct links - example.com/product
-  - Shortest category path - example.com/cat1/product
-  - Longest category path - example.com/cat1/cat2/cat3/product
-  - Last category - example.com/cat3/product
-  - Manufacturer - example.com/manufacturer/product
-* Generates ALL category links and canonical urls (direct or full path)
-* Runs pagination via a static URL rather than a parameter, i.e., example.com/category/page-2 instead of example.com/category?page=2)
+* Allows to generate product links and canonical URLs like:
+  - Direct link (example.com/product)
+  - Link with shortest category path (example.com/cat1/product)
+  - Link with longest category path (example.com/cat1/cat2/cat3/product)
+  - Link with the last category (example.com/cat3/product)
+  - Link with manufacturer (example.com/brand-name/product)
+* Generates ALL category links and canonical urls like:
+  - Direct link (example.com/cat3)
+  - Full path (example.com/cat1/cat2/cat3)
+* Runs SEO friendly pagination (example.com/category/page-2)
 * Displays page numbers in the title and description of paginated pages
 * Has high compatibility with third party templates and modules due to use Opencart Event System
 
