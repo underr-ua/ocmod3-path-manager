@@ -1,5 +1,9 @@
 # Change log
 
+## [2.5.2] - 2021.05.19:
+## Fixed
+- Breadcrumb LD-JSON
+
 ## [2.5.1] - 2021.03.05:
 ### Changed
 - Internal changes related to add-on "Add Custom Script" that was updated and renamed to "Document addTag".
