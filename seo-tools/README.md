@@ -10,7 +10,7 @@ The "SEO Tools" extension is for OpenCart 3.x CMS. It allows to manage links and
 * JSON-LD markup for breadcrumbs
 * SEO pagination (i.e., "site.com/category/2", "prev", "next") with page number in the title
 * Does not change OC core files due to using OCMOD Modification System
-* 3rd party templates high compatibility due to using Opencart Event System
+* High compatibility with 3rd party templates due to using Opencart Event System
 
 ## Live demo
 * [Admin](http://ocmod.freevar.com/oc3020/a/admin/index.php?route=extension/module/seo_tools)
