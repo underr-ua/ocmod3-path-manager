@@ -1,4 +1,4 @@
-# Seo Tools - Breadcrumbs
+# SEO Breadcrumbs
 
 ## Description
 The "SEO Breadcrumbs" extension is for OpenCart 3.x CMS. It allows to manage product breadcrumbs and add related JSON-LD structured data markup.
