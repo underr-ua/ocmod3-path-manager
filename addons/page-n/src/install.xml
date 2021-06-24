@@ -26,6 +26,14 @@ page: https://raw.githubusercontent.com/ocmod-space/license/main/LICENSE.txt.
 					///]]>
 			</add>
 		</operation>
+		<operation error="log" info="exclude numeric pagination">
+			<search info="">
+				<![CDATA[(int)$parts[count($parts) - 1] > 1]]>
+			</search>
+			<add position="replace">
+				<![CDATA[null && (int)$parts[count($parts) - 1] > 1]]>
+			</add>
+		</operation>
 		<operation error="log">
 			<search info="">
 				<![CDATA[$page = $page[1];]]>
