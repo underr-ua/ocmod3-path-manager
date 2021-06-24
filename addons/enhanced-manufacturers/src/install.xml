@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+This file is subject to the terms and conditions defined in the "LICENSE.txt"
+file, which is part of this source code package and is also available on the
+page: https://raw.githubusercontent.com/ocmod-space/license/main/LICENSE.txt.
+-->
+
+<modification>
+	<name>[underr] Seo Tools &lt; Enhanced Manufacturers</name>
+	<code>seo-tools--enhanced-manufacturers</code>
+	<version>1.0.0</version>
+	<author>Andrii Burkatskyi aka underr</author>
+	<link>https://www.opencart.com/index.php?route=marketplace/extension&amp;filter_member=ocmod.space</link>
+
+	<file path="catalog/controller/startup/seo_tools.php" error="log">
+		<operation error="log" info="">
+			<search>
+				<![CDATA[$this->request->get['route'] = 'product/category';]]>
+			</search>
+			<add position="replace">
+				<![CDATA[/// << Enhanced Manufacturers+
+					if (isset($this->request->get['manufacturer_id'])) {
+						$this->request->get['route'] = 'product/manufacturer/info';
+					} else {
+						$this->request->get['route'] = 'product/category';
+					}
+					/// >> Enhanced Manufacturers+]]>
+			</add>
+		</operation>
+		<operation error="log" info="">
+			<search>
+				<![CDATA[if (isset($data['information_id'])) {]]>
+			</search>
+			<add position="before">
+				<![CDATA[			/// << Enhanced Manufacturers+
+			if (isset($sorted['path']) && isset($sorted['manufacturer_id'])) {
+				$data['path'] = $sorted['path'];
+				$data['manufacturer_id'] = $sorted['manufacturer_id'];
+
+				unset($sorted['manufacturer_id']);
+				unset($sorted['path']);
+
+				$sorted['manufacturer_id'] = $data['manufacturer_id'];
+				$sorted['path'] = $data['path'];
+
+				unset($data['manufacturer_id']);
+				unset($data['path']);
+			}
+			/// >> Enhanced Manufacturers+]]>
+			</add>
+		</operation>
+	</file>
+
+
+</modification>
