@@ -1,6 +1,8 @@
 # Change log
 
-## [2.7.0] - 2021.06.11:
+## [2.7.0] - 2021.06.24:
+### Changed
+- Renamed to SEO Breadcrumbs
 ### Added
 - Caching of SQL-queries
 ### Internal
