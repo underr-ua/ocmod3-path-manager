@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+This file is subject to the terms and conditions defined in the "LICENSE.txt"
+file, which is part of this source code package and is also available on the
+page: https://raw.githubusercontent.com/ocmod-space/license/main/LICENSE.txt.
+-->
+
+<modification>
+	<name>[underr] Seo Tools &lt; Plazathemes</name>
+	<code>seo-tools--plazathemes</code>
+	<version>1.0.0</version>
+	<author>Andrii Burkatskyi aka underr</author>
+	<link>https://www.opencart.com/index.php?route=marketplace/extension&amp;filter_member=ocmod.space</link>
+
+	<file path="catalog/controller/startup/seo_tools.php" error="log">
+		<operation error="log" info="">
+			<search>
+				<![CDATA[} elseif (isset($this->request->get['manufacturer_id'])) {]]>
+			</search>
+			<add position="before">
+				<![CDATA[				} elseif (isset($this->request->get['post_id'])) {
+					$this->request->get['route'] = 'plaza/blog/post';
+				} elseif (isset($this->request->get['post_list_id'])) {
+					$this->request->get['route'] = 'plaza/blog/category';]]>
+			</add>
+		</operation>
+		<operation error="log" info="">
+			<search>
+				<![CDATA[case ($data['route'] == 'information/information' && $key == 'information_id')]]>
+			</search>
+			<add position="after">
+				<![CDATA[					case ($data['route'] == 'plaza/blog/category' && $key == 'post_list_id'):
+					case ($data['route'] == 'plaza/blog/post' && $key == 'post_id'):]]>
+			</add>
+		</operation>
+	</file>
+	<file path="catalog/model/extension/module/seo_tools.php" error="log">
+		<operation error="log" info="">
+			<search>
+				<![CDATA[default:]]>
+			</search>
+			<add position="before">
+				<![CDATA[
+			case 'post_id':
+				$pfx = explode('_', $part[0])[0];
+				$id = isset($part[1]) ? $part[1] : '';
+				$cache_id =  $id ? $pfx . '.' . $id : $pfx;
+
+				break;
+			case 'post_list_id':
+				$pfx = explode('_', $part[0])[0] .'_'. explode('_', $part[0])[1];
+				$id = isset($part[1]) ? $part[1] : '';
+				$cache_id =  $id ? $pfx . '.' . $id : $pfx;
+
+				break;]]>
+			</add>
+		</operation>
+	</file>
+
+</modification>
