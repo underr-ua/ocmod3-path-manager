@@ -1,5 +1,9 @@
 # Change log
 
+## [2.7.1] - 2021.06.25:
+### Added
+- Hide module from the modules list on "Design > Layouts"
+
 ## [2.7.0] - 2021.06.24:
 ### Changed
 - Renamed to SEO Breadcrumbs

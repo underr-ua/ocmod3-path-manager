@@ -7,7 +7,7 @@ The "SEO Breadcrumbs" extension is for OpenCart 3.x CMS. It allows to manage pro
 * Advanced product breadcrumb manager
 * JSON-LD structured data markup
 * Removes loop link from last breadcrumb items
-* Does not change OC core files due to using OCMOD Modification System
+* Does not change OC core files
 * High compatibility with 3rd party templates due to using Opencart Event System
 
 ## Live demo
