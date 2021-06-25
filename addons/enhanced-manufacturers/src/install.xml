@@ -9,7 +9,7 @@ page: https://raw.githubusercontent.com/ocmod-space/license/main/LICENSE.txt.
 <modification>
 	<name>[underr] Seo Tools &lt; Enhanced Manufacturers</name>
 	<code>seo-tools--enhanced-manufacturers</code>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<author>Andrii Burkatskyi aka underr</author>
 	<link>https://www.opencart.com/index.php?route=marketplace/extension&amp;filter_member=ocmod.space</link>
 
@@ -46,6 +46,10 @@ page: https://raw.githubusercontent.com/ocmod-space/license/main/LICENSE.txt.
 
 				unset($data['manufacturer_id']);
 				unset($data['path']);
+			}
+
+			if (isset($sorted['manufacturer_id']) && isset($data['product_id'])) {
+				unset($sorted['manufacturer_id']);
 			}
 			/// >> Enhanced Manufacturers+]]>
 			</add>
